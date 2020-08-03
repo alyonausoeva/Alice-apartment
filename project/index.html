@@ -1,0 +1,253 @@
+<html>
+<head>
+<script src="js/jquery.js"></script>
+<link rel="stylesheet" href="https://webdeveloper.pro/demo/blog/owlcarousel/owl-carousel/owl.carousel.css"/>
+<script src="https://webdeveloper.pro/demo/blog/owlcarousel/js/jquery-3.0.0.min.js"></script>
+<script src="https://webdeveloper.pro/demo/blog/owlcarousel/owl-carousel/owl.carousel.min.js"></script>
+
+
+
+<link href="style.css" rel="stylesheet"  type="text/css" />
+
+
+<link rel="icon" href="logo.png" type="image/x-icon"/> 
+<title>Alice mini-studious</title>
+</head>
+
+<body>
+
+<header>
+
+<div class="headd">
+<div class="logo">
+<div class="al">ALICE</div><br>
+<span>апартаменты </span>
+</div>
+<div class="menu">
+<div class="gl">
+<a href="index.html"><strong><font color="#e47fa9">ГЛАВНАЯ</font></strong></a>
+</div>
+
+<div class="r">
+<a href="rooms.html">НОМЕРА</a>
+</div>
+
+<div class="o">
+<a href="onas.html">О НАС</a>
+</div>
+
+<div >
+<a href="kontakt.html">КОНТАКТЫ</a>
+</div>
+</div>
+
+</div>
+
+</header>
+
+<main>
+<div class="m1">
+<center>
+<div class="alice"><h1>ALICE</h1> </div>
+<strong><span>комплекс апартаментов</span></strong>
+<div class="vramke">
+<h2>Владимир</h2>
+<h3>Ставровская, 4</h3>
+<div class="br"><a href="rooms.html"><h3>ЗАБРОНИРОВАТЬ</h3></a></div>
+</div>
+</center>
+</div>
+
+<div class="m2">
+Апартаменты располагает богатым номерным фондом и готова удовлетворить пожелания любого клиента, в Апартаментах Комплекс апартаментов Alice mini-studios Вы можете забронировать как стандартные номера так и номера повышенного комфорта.
+
+<div class="ph">
+<div>
+<img src="https://s-ec.bstatic.com/images/hotel/max1024x768/663/66393913.jpg">
+</div>
+<div>
+
+<img src="https://s-ec.bstatic.com/images/hotel/max1024x768/663/66392943.jpg">
+</div>
+</div>
+</div>
+<div class="m3">
+<center>
+<h1> Наши преимущества! </h1>
+</center>
+<div class="mm3">
+<div class="mmm3">
+<div class="mmm31">
+
+<div>
+<h2>чистота</h2>
+<img src="chistota.png">
+</div>
+<div>
+<h2>безопасность</h2>
+<img src="protection.png">
+</div>
+<div>
+<h2>комфорт</h2>
+<img src="comfort.png">
+</div>
+
+</div>
+<div class="mmm32">
+<div>
+<h2>WI-FI</h2>
+<img src="wifi.png">
+</div>
+<div>
+<h2>оборудованная кухня</h2>
+<img src="cooking.png">
+</div>
+<div>
+<h2>прокат велосипедов</h2>
+<img src="bycicle.png">
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="m4">
+<center>
+<h1> Отзывы наших клиентов: </h1>
+</center>
+<div class="otz">
+<script type="text/javascript">
+
+$(document).ready(function(){
+	
+	// Находим блок карусели
+	var carousel = $("#carousel");
+	
+	// Запускаем плагин карусели
+	carousel.owlCarousel({
+		singleItem: true, // Показывать только 1 блок на всю ширину
+		
+		// Количество отображающихся блоков в зависимости от устройства (ширины экрана)
+		// Количество блоков на больших экранах
+		items: 10,
+		// 5 блоков на компьютерах (экран от 1400px до 901px)
+		itemsDesktop : [1400,5],
+		// 3 блока на маленьких компьютерах (экран от 900px до 601px)
+		itemsDesktopSmall : [900,3],
+		// 2 элемента на планшетах (экран от 600 до 480 пикселей)
+		itemsTablet: [600,2],
+		// Настройки для телефона отключены, в этом случае будут
+		// использованы настройки планшета
+		itemsMobile : false ,
+
+		// Точки под каруселью
+		pagination: true
+	});
+
+	// Назад
+	// При клике на "Назад"
+	$('#js-prev').click(function () {
+	
+		// Запускаем перемотку влево
+		carousel.trigger('owl.prev');
+	
+		return false;
+	});
+	
+	// Вперед
+	// При клике на "Вперед"
+	$('#js-next').click(function () {
+	
+		// Запускаем перемотку вправо
+		carousel.trigger('owl.next');
+	
+		return false;
+	});
+});
+</script>
+<div id="carousel">
+	<div class="carousel-element">
+	<center>
+	<img src="quote.png">
+	</center>
+	<p>Удобное месторасположение, на машине мин 6-10 от центра. Тихий двор, приятное обслуживани. Понравилось в принципе все! Отдохнули на славу, очень понравились апартаменты, чистые, светлые, нас встретила  приятная девушка, рассказала где и что у них, где можно покушать, что увидеть. Остались довольны чистотой, все было аккуратно и ничего лишнего. Я думаю, что мы вернёмся сюда ещё!е</p><br>
+	
+	<strong> Маргарита, Россия </strong></div>
+	<div class="carousel-element"><p>Уютно, спокойно, комфортно, обстановка со вкусом в номере. Прекрасная хозяйка. Отдыхали с ребенком 7 лет, в небольшой комнате не было тесно. Также были предложены дополнительные услуги. Хозяйка без проблем отвечала на все вопросы по городу. Рекомендую! </p>
+	Герман, Россия</div>
+	<div class="carousel-element"><p> Комната очень чистая, уютная-есть все для отдыха индивидуального путешественника. Расположение недалеко от центра-много общественного транспорта идет к историческим местам. Вокруг много магазинов и кафе. У меня был ранний выезд-с этим тоже не было проблем. Спасибо огромнейшее. Очень уютное место в стиле "Алисы в стране чудес"-очень всем рекомендую </p>
+	Елена, Россия</div>
+	<div class="carousel-element"><p>Cozy and newly furnished flat. A little bit far from historical center but is only 5 mins walk to take a bus to the central. A shopping mall is nearby. You can cook in apartment and 3 supermarkets are around the block. Svetlana is very nice and helpful. We have 3 big luggage and is hard to call a taxi, she came to pick us up at train station and drove us back when we left. Highly recommend</p> <br> James, Китай</div>
+	<div class="carousel-element"><p>Все понравилось, все новое, чистое. Расположение отличное, от центра на машине минут 5-10. Собственная парковка во дворе, за шлагбаумом. Есть холодильник, плитка и свч в комнате, соответствующая посуда прилагается. Приветливая хозяйка. Лучшее соотношение цены/качества</p><br> Елизавета, Россия</div>
+	<div class="carousel-element"><p>Номера уютные, оформлены в стиле "Алисы в стране чудес". Есть микроволновка, холодильник, чайник, тостер, электрическая плита, посуда. Смело можно готовить самим. В одном номере может поместиться до 4 человек: есть двуспальная кровать и раскладной диван. В одном из номеров есть балкон. Также в номере были полотенца.</p><br> Антон, Россия</div>
+	<div class="carousel-element"><p>Парковка бесплатная на охраняемой придомовой стоянке. Все необходимое есть в номере, кроме газовой или электроплиты. Удобное расположение от всех достоприиечательностей г.Владимир. Нет рядом какого-либо кафе, но есть у дома "Магнит". ОЧЕНЬ ЧИСТЫЙ и уютный номер. Быстрый интернет.</p> <br> Людмила, Россия</div>
+	<div class="carousel-element"><p>Все есть- стиральная машинка, чайник, холодильник, посуда. Фен можно попросить. Светлана очень приветлива и радушна. Въехать и выехать нам нужно было не по графику) и никаких проблем. Расположение хорошее, я выбирала спец. в этом месте, тк весь транспорт проходит в сторону города через "1000 мелочей". Есть информационный стенд, который пригодится туристам и wi-fi. В душевой есть шампунь, мыло и губочка. Есть куда повесить одежду и вешалки и штанга. В целом, хорошо. Спасибо</p><br>
+	Евгений, Россия</div>
+	<div class="carousel-element"><p>Останавливались на две ночи, в номере 25м. Если на машине - хороший вариант, общественным транспортом не пользовались, но недалеко есть остановка автобусов до центра.  Идеальная чистота, все новое, в очень хорошем состоянии,  Для готовки-  индукционная одноконфорочная плитка, микроволновая печь, чайник, тостер,небольшой холодильник, вся необходимая посуда: чашки, бокалы, тарелки (обычные и глубокие), столовые приборы. </p><br>
+	Виталий, Россия</div>
+	<div class="carousel-element"><p>Идеальная чистота и отличный стиль интерьера. Всё новое, подобрано из Икеи со вкусом. Дополнено душевными деталями - картины с видами Владимира, графикой. Есть балкон с барными стульями,можно уютно пить чай.Окна выходили во двор. Порадовали даже белые стены и идеальная чистота душевой кабины. Удобная мини-кухня! И конечно, радущный и ариветливый персонал! Все рассказали, обьяснили.</p><br>
+	Мария, Россия</div>
+	
+</div>
+
+
+<!-- Назад Вперед -->
+<div class="str">
+<center>
+<p class="center-text"><a class="la" href="#" id="js-prev"><img src="la.png"></a>
+<a href="#" id="js-next"><img class="ra" src="ra.png"></a></p>
+</center>
+</div>
+</div>
+
+</div>
+
+<div class="m5">
+<center>
+<h1> <font color="#e47fa9"> Подпишитесь на нашу рассылку!</font> </h1>
+<form method="post" action="send.php">
+<center><input class="rass" type="text" name="email"></center><br>
+<center><input class="krr" type="submit" name="submit" value="ПОДПИСАТЬСЯ"></center>
+</form>
+
+
+</main>
+
+<footer>
+<div class="foot">
+
+<div>
+<center>
+<img src="phone.png">
+8 999 999 99 99<br>
+</center>
+</div>
+
+<div class="mail">
+<center>
+<img  src="mail.png">
+alicest@mail.ru
+</center>
+</div>
+<div>
+<center>
+<img src="geo.png">
+Ставровская, 4
+</center>
+</div>
+
+
+<div class="br"><a href="rooms.html"><h3>ЗАБРОНИРОВАТЬ</h3></a></div>
+</div>
+<center>
+<img class="pol" src="http://mospolytech.ru/img_new/top_bn/top_sh.png">
+<font color="lightgray" size="2px">Курсовой проект по дисциплине "Инженерное проектирование". Выполнила Усоева А.С., группа 171-332. Куратор Голубева И.В.</font>
+</center>
+</footer>
+
+
+</body>
+
+</html>
